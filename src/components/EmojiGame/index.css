@@ -1,0 +1,20 @@
+.game-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  overflow-y: auto;
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 77px 40px 40px 68px;
+}
+@media screen and (max-width: 576px) {
+  .emojis-container {
+    margin: 30px 15px 20px -14px;
+    gap: 9px
+  }
+}

@@ -1,0 +1,73 @@
+.win-or-lose-card {
+  background-color: #ffffff33;
+  border: solid 2px #ffffff30;
+  padding: 35px;
+  margin: 77px 15% 40px 15%;
+  display: flex;
+  border-radius: 22px;
+  justify-content: space-around;
+}
+.result-container {
+  text-align: center;
+  align-self: center;
+}
+.result {
+  font-size: 60px;
+  color: #ffffff;
+}
+.score-text {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+}
+.score {
+  margin-top: -29px;
+  font-size: 45px;
+  font-weight: 600;
+  color: #6a59ff;
+}
+.button {
+  width: 120px;
+  height: 44px;
+  background-color: #ffce27;
+  border-width: 0;
+  border-radius: 16px;
+  font-size: 17px;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+.result-img {
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .win-or-lose-card {
+    margin: 30px 6% 30px 6%;
+    border-radius: 12px;
+    flex-direction: column;
+  }
+  .result-container {
+    order: 1;
+  }
+  .result {
+    font-size: 25px;
+  }
+  .score-text {
+    font-size: 19px;
+  }
+  .score {
+    font-size: 36px;
+    margin-top: -19px;
+  }
+  .button {
+    width: 102px;
+    height: 42px;
+    border-radius: 13px;
+    font-size: 14px;
+  }
+  .result-img {
+    width: 108px;
+    margin-top: -18px;
+    align-self: center;
+  }
+}
